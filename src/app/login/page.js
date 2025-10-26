@@ -1,10 +1,6 @@
 "use client"
 
 import { useState } from "react";
-export const metadata ={
-  title:"Login page",
-  description :'page to login'
-}
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
